@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button id="test">Test</button>
+    <div class="container">
+      <div class="buttons">
+        <button id="rock" class="button">Rock</button>
+        <button id="paper" class="button">Paper</button>
+        <button id="scissors" class="button">Scissors</button>
+      </div>
+      <div class="results">
+        <h1 class="header">
+          Pick either Rock, Paper or Scissors to play against the Computer!
+          First to five wins.
+        </h1>
+        <div class="scores">
+          <div class="computerScore scoreDiv">
+            <h1 class="compScoreText scoreText"></h1>
+            <h1 class="compScoreNumber scoreNumber"></h1>
+          </div>
+          <div class="userScore scoreDiv">
+            <h1 class="userScoreText scoreText"></h1>
+            <h1 class="userScoreNumber scoreNumber"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
