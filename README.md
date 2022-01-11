@@ -5,3 +5,5 @@ Odin-Project: First JS project, simple rock, paper, scissors. For now only throu
 10.01.2022
 
 Added the GUI
+
+Will update this README with more details soon..
